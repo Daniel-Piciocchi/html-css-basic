@@ -1,4 +1,79 @@
-input {
-    display: block;
+* {
+    box-sizing: border-box;
 }
 
+/* element */
+
+/* emails */
+
+#main-container {
+    height: 100vh;
+}
+
+body {
+    background-color: beige;
+}
+
+h1 {
+    background-color: rgb(167, 149, 185);
+    width: 300px;
+    border: 16px solid black;
+}
+
+header {
+    background-color: rgb(224, 247, 255);
+}
+
+.footer {
+    background-color: red;
+    width: 300px;
+}
+
+.footer-div {
+    border: 2px solid black;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/* importance of each selector */
+/* 
+1 - id -> important-heading first-child
+2 - classes ->
+3 - general element selector
+*/
+/* importance of css styles */
+
+/* initialized css */
+
+/* flex-box */
+
+
+/*  inline, inline-block and block */
+/* whether have childrens or not */
+
+/*  flex */
+/* about the children */
+
+/* mobile first develop any website */
+
+/* screens we first is best */
+
+/* 
+@media screen and (max-width:
+415px) {
+    h1 {
+        color: pink;
+    }
+} */
+/* vh vw */
+
+/* min-width max width min-height max-height */
+/* mobile first approach */
+
+/* justify-content */
+/* justify-content */
